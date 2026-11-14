@@ -30,4 +30,5 @@ jobs:
         run: >
           gh release create v${{ github.run_number }}
           NowPlaying/app/build/outputs/apk/debug/app-debug.apk
+          NowPlaying/wear/build/outputs/apk/debug/NowPlaying-Watch-debug.apk
           --title "Build ${{ github.run_number }}"
